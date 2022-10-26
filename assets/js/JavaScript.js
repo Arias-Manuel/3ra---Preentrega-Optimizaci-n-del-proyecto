@@ -26,7 +26,7 @@ items.addEventListener('click', e => {
 
 const fetchData = async () => {
     try {
-        const res = await fetch('../assets/json/elementos.json')
+        const res = await fetch('json/elementos.json')
         const data = await res.json()
         pintarCards(data)
 
