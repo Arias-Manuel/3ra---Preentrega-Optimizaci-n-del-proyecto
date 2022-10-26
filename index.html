@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <title>3era Pre entrega</title>
+  </head>
+<body>
+    <div class="container">
+        <h1 class="display-4 p-3 text-center">Bienvenidos al Carrito de Belugas</h1>
+        <h2 class="p-3">Productos a la venta</h2>
+        <div class="row" id="cards"></div>
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Acción</th>
+                    <th scope="col">Total</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+                <tr id="footer">
+                  <th scope="row" colspan="5">Llene su carrito!</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <template id="template-footer">
+        <th scope="row" colspan="2">Total productos</th>
+        <td>10</td>
+        <td>
+          <button class="btn btn-danger btn-sm" id="vaciar-carrito">Vaciar todo</button>
+        </td>
+        <td class="font-weight-bold">$<span>500</span></td>
+    </template>
+    <template id="template-carrito">
+        <tr>
+            <th scope="row">id</th>
+            <td>Beluga</td>
+            <td>1</td>
+            <td>
+                <button class="btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span>500</span></td>
+        </tr>
+    </template>
+    <template id="template-card">
+        <div class="col-12 mb-2 col-md-4">
+            <div class="card">
+                <img src="" alt="" class="card-img-top w-100 ">
+                <div class="card-body">
+                    <h3>Titulo</h3>
+                    <p>precio</p>
+                    <button class="btn btn-dark">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="./assets/js/JavaScript.js"></script>
+</body>
+</html>

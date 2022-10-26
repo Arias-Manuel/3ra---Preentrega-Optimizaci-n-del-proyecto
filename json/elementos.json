@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 25,
+        "id": 1,
+        "titulo": "Polite Cat",
+        "imagen": "/images/beluga_d.jpg"
+    },
+    {
+        "precio": 50,
+        "id": 2,
+        "titulo": "Super Polite Cat",
+        "imagen": "/images/beluga_d.jpg"
+    },
+    {
+        "precio": 150,
+        "id": 3,
+        "titulo": "Beluga",
+        "imagen": "/images/beluga_d.jpg"
+    },
+    {
+        "precio": 250,
+        "id": 4,
+        "titulo": "Super Beluga",
+        "imagen": "/images/beluga_d.jpg"
+    },
+    {
+        "precio": 110,
+        "id": 5,
+        "titulo": "Ultra Beluga",
+        "imagen": "/images/beluga_d.jpg"
+    },
+    {
+        "precio": 270,
+        "id": 6,
+        "titulo": "Hecker",
+        "imagen": "/images/Hecker_Cat.jpg"
+    }
+]
